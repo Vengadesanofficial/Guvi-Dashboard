@@ -1,0 +1,23 @@
+  {cardData && (
+    <>
+    {cardData?.map((carddata,idx)=>(
+
+
+
+
+    ))}
+    </>
+   )
+
+   }
+
+
+   div key={idx} className="card w-96 glass">
+  <figure> {carddata.img}</figure>
+  <div className="card-body">
+    <h3>  <b>{carddata.title}</b> </h3>
+   
+    <p>Description{carddata.Description}</p>
+   
+  </div>
+</div>
